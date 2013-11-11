@@ -34,24 +34,3 @@ page.open(url, function (status) {
     }
     phantom.exit();
 });
-
-
-
-
-
-
-// var nodeio = require('node.io');
-
-// var methods = {
-// 	input : ['http://www.kayak.com/flights/CUN-ZRH/2013-11-20/2014-01-31'],
-// 	run : function(url) {
-// 		this.getHtml(url, function(err, $) {
-// 			if (err) this.exit(err);
-			
-// 			console.log($('html').fulltext);
-
-			    
-// 		});
-// 	}
-// }
-// exports.job = new nodeio.Job({timeout:20}, methods);
